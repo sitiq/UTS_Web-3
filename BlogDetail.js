@@ -1,7 +1,7 @@
 import React from "react";
 
 function ArticleCard(props) {
-  const  title, summary, imageUrl  = props;
+  const { title, summary, imageUrl}  = props;
   return (
     <div className="col-lg-8">
       <h1 className="mt-4">title</h1>
@@ -94,4 +94,6 @@ class DetailBlog extends React.Component {
     );
   }
 }
+
+export default BlogDetail;
 
