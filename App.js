@@ -20,7 +20,7 @@ function App() {
           <Route path="/about">
             About
           </Route>
-          <Route path="/blog/:articleId" component=BlogDetail />
+          <Route path="/blog/:articleId" component={BlogDetail} />
           <Route path="/blog">
             <Blog />
           </Route>
